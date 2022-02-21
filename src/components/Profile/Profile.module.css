@@ -1,0 +1,40 @@
+.description {
+  margin-bottom: 30px;
+  color: black;
+  font-size: 21px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.name {
+  margin-bottom: 15px;
+  color: black;
+
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  background-color: lightgrey;
+  border-radius: 4px;
+  margin-right: 15px;
+  color: black;
+  font-size: 21px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}

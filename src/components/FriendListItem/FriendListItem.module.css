@@ -1,0 +1,39 @@
+.item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: coral;
+  border-radius: 4px;
+}
+
+.status {
+  border-radius: 50px;
+  width: 12px;
+  height: 12px;
+}
+
+.isOnline {
+  composes: status;
+  background-color: green;
+}
+
+.isOffline {
+  composes: status;
+  background-color: red;
+}
+
+.avatar {
+  margin-left: 30px;
+}
+
+.name {
+  margin-left: 30px;
+  color: black;
+
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}

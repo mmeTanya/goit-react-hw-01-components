@@ -1,0 +1,27 @@
+.transactionHistory {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.transactionName {
+  height: 70px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  margin-right: 15px;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.transactionValue {
+  height: 70px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  margin-right: 15px;
+  color: black;
+  font-size: 21px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
