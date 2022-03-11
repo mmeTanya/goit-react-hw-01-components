@@ -36,3 +36,4 @@ TransactionHistory.propTypes = {
 };
 
 export default TransactionHistory;
+
